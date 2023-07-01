@@ -1,0 +1,45 @@
+body{
+    background-color: #7777;
+}
+
+
+.item{
+    border: 1px dotted black;
+    border-radius: 50px;
+    width: auto;
+    height: auto;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: ; */
+    align-items: center;
+    padding:30px;
+}
+.item p{
+    color:brown;
+
+}
+.item img{
+    width:20%
+}
+.button{
+    margin:15px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 5px;
+}
+#Add_To_Cart{
+    background-color:rgb(230, 105, 105);
+    color: whitesmoke;
+}
+#Show_details{
+    background-color:rgb(109, 230, 105);
+    
+}
+#Show_price{
+  background-color: burlywood;
+}
+b{
+    color: purple;
+}
